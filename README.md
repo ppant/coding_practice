@@ -3,6 +3,8 @@ They were prepared over the years to practice basic coding concepts in languages
 
 All sample code is tested. Feel free to add more questions and answers. 
 
-## PS: Useful for folks looking for a working sample of basic/intermediate programming concepts and also for folks preparing for interviews. 
+## Audience: ## 
+Useful for folks looking for a working sample of basic/intermediate programming concepts and also for folks preparing for interviews. 
 
-## Source: Multiple websites, courses and self-made questions
+## Sources: 
+Multiple websites, courses, and self-made questions
