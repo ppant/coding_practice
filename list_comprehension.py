@@ -28,7 +28,7 @@ print(newlist)
 newlist_lc = [x for x in fruits if "a" in x]
 print(newlist_lc)
 
-# Generate a matrix using two for loop
+# Example 3: Generate a matrix using two for loop
 matrix = [] 
 for i in range(3): 
 	# Append an empty sublist inside the list 
@@ -41,8 +41,7 @@ print(matrix)
 matrix = [[j for j in range(5)] for i in range(3)] 
 print(matrix)
 
-# benchmarking: looping and list comprehension
-# Import required module 
+# Example 4: Benchmarking: looping and list comprehension
 # Import required module 
 import time 
 # define function to implement for loop 
@@ -71,7 +70,7 @@ end = time.time()
 # Display time taken by for_loop() 
 print('Time taken for list_comprehension:', round(end-begin, 2)) 
 
-# basic lambda 
+# Example 5: Basic lambda 
 x = lambda a : a + 10
 print("output using lambda:", x(6))
 # Using lambda and list comprehesion
@@ -85,15 +84,18 @@ print(numbers)
 numbers = [i*10 for i in range(1,6)]
 print(numbers)
 
+# Example 6
 # Using lambda and list comprehension to print table of 10 
 numbers = list(map(lambda i: i*10, [i for i in range(1, 6)])) 
 print(numbers) 
 
+# Example 7
 # Nested IF with List Comprehension
 lis = [num for num in range(100) 
 	if num % 5 == 0 if num % 10 == 0] 
 print(lis)
 
+# Example 8
 # Toggle the case of each character in a String
 # Initializing string 
 string = 'Geeks4Geeks'
@@ -102,12 +104,13 @@ List = list(map(lambda i: chr(ord(i) ^ 32), string))
 # Display list 
 print(List) 
 
+# Example 9
 # Reverse each string in a Tuple
 List = [string[::-1] for string in ('Geeks', 'for', 'Geeks')] 
 # Display list 
 print(List) 
 
-# few examples of using list, map, filter and lambda
+# Example 10: Few examples of using list, map, filter and lambda
 nums = [1, 2, 3, 4, 5]
 map_out = map(lambda n: 2 * n, nums)  # print fails, so list() below
 print(map_out)
@@ -130,8 +133,9 @@ nums_in = [5, 3, 6, 1, 7, 2]
 lst4_out = list(filter(lambda n: n % 2 == 1, nums_in))
 print(lst4_out)
 
+# Example 11
 # Append an Item to Lists Within A List Using or Operator
-#list containing lists 
+# list containing lists 
 squares = [[1, 1], [2, 4], [3, 9], [4, 16], [5, 25]] 
 
 #use list comprehension to append an item 
